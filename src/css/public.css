@@ -1,0 +1,39 @@
+.font-12 {
+    font-size: 12px;
+}
+.font-14 {
+    font-size: 14px;
+}
+.font-16 {
+    font-size: 16px;
+}
+
+.text-align-l {
+    text-align: left;
+}
+.text-align-c {
+    text-align: center;
+}
+.text-align-r {
+    text-align: right;
+}
+
+.margin-t-7 {
+    margin-top: 7px;
+}
+.margin-b-7 {
+    margin-bottom: 7px;
+}
+.margin-b-5 {
+    margin-bottom: 5px;
+}
+.margin-b-10 {
+    margin-bottom: 10px;
+}
+
+.border-t {
+    border-top: 1px solid #c8c8c8;
+}
+.border-b {
+    border-bottom: 1px solid #c8c8c8;
+}

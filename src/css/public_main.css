@@ -1,0 +1,197 @@
+html{
+    width: 100%;
+    overflow-x: hidden;
+    font-family:  "Microsoft YaHei" !important;
+}
+body {
+  font-family:  "Microsoft YaHei" !important;
+  background: #fff;
+}
+select {
+  outline: none;
+  -webkit-appearance: none;
+  background: none;
+}
+textarea {
+  resize: none;
+}
+input[disabled="disabled"],
+textarea[disabled="disabled"] {
+  opacity: 1;
+  color: rgba(0, 0, 0, 1);
+}
+.prohibitOverflow {
+    overflow: hidden;
+    height: 100%;
+}
+/* 按钮组 */
+.button-Group {
+    margin-top: 100px;
+}
+.submit {
+    width: 90%;
+    margin: 15px auto;
+}
+.submit-register {
+    background: #fff;
+}
+/* 表单 */
+p.title,
+.mint-field .mint-cell-title {
+    color: #000;
+    font-size: 15px;
+}
+.from-textarea .from-textarea-title {
+    background: #fff;
+    padding: 10px 15px;
+    color: #666;
+    /* border-top:1px #dedede solid; */
+}
+.from-textarea .from-textarea-val {
+    width: 100%;
+    height: 110px;
+    display: block;
+    border: 0;
+    padding: 15px;
+    margin-top: 0px;
+    /* border-bottom:1px #dedede solid;
+    border-top:1px #dedede solid; */
+    -webkit-appearance: none;
+    appearance: none;
+    background: #fff;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 0;
+}
+
+/* 列表边线 */
+.mint-cell-wrapper {
+    padding: 0 15px;
+    height: 55px;
+    background-size: 100% 1px;
+}
+
+/* 列表右箭头 */
+.mint-cell-allow-right::after {
+    border: 1px solid #232323;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    width: 10px;
+    height: 10px;
+}
+
+/* 高度不够100%的白色背景*/
+.accountSettings,
+.centerPhone, 
+.maillist, 
+.centerPhoneNew, 
+.centerPassword, 
+.home,
+.login,
+.centerMyApply,
+.forgotPassword,
+.selectTag,
+.addTag,
+.addTname,
+.followUp,
+.addFollow,
+.weekTargetNew,
+.weekPlanEdit,
+.otherPlanEdit,
+.monthTarget_create,
+.monthTarget_details,
+.monthPlanAdd,
+.monthTarget_details_edit,
+.yearTarget_personal,
+.yearlistDetail,
+.yearPlanAdd_person,
+.yearPlanAdd_cause,
+.yearTarget_details,
+.yearTarget_details_edit,
+.yearPlanPersonEdit,
+.yearPlanPersonDetails,
+.assessment,
+.wages {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background: #fff;
+}
+
+/* 申请表单 */
+.workApply .mint-field,
+.received .mint-field {
+    margin: 10px 0;
+}
+.workApply .mint-cell-wrapper,
+.received .mint-cell-wrapper {
+    background-image: none;
+    /* border: 1px #dedede solid; */
+}
+
+
+/* mt-field 放入select 并且右对齐 */
+input[type="date"],
+input[type="month"],
+.selectInput select {
+  background: none;
+  /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+  border: none;
+  /*很关键：将默认的select选择框样式清除*/
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  /*在选择框的最右侧中间显示小箭头图片*/
+  /*background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;*/
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+  /*padding-right: 14px;*/
+  font-size: 15px;
+  font-family: 'Microsoft YaHei';
+}
+.selectInput .mint-field-other,
+.selectInput select {
+  direction: ltr;
+  width: 100%;
+}
+.selectInput .mint-field-core {
+  display: none;
+}
+input[type="date"] {
+  line-height: 30px;
+}
+.mint-field .mint-cell-title {
+  border-left: 3px solid #1B69FE;
+  line-height: 1.0;
+  padding-left: 6px;
+}
+.mint-field-other select,
+.mint-field-other p {
+  text-align: left;
+  direction: ltr;
+  color: #000;
+  font-size: 16px;
+  width: 100%;
+}
+
+.received .mint-field-core {
+  display: none;
+}
+
+.mint-msgbox-btn {
+  font-size: 16px;
+}
+input, .mint-field {
+    font-family: 'Microsoft YaHei';
+}
+.mint-field-core {
+  flex-basis: 100%;
+}
+
+/* 弹出框 */
+.auditor_add .mint-popup,
+.receivedApplyButton .mint-popup{
+    height: 100%;
+    width: 70%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
